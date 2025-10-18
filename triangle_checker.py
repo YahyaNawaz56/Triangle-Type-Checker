@@ -26,7 +26,7 @@ def check_triangle_type(a, b, c):
     return f"{angle_type} {triangle_type} triangle"
 
 
-# Example execution
+# Example executions
 if __name__ == "__main__":
     a = int(input("Enter side 1: "))
     b = int(input("Enter side 2: "))
