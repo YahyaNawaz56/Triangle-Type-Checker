@@ -21,7 +21,7 @@ def check_triangle_type(a, b, c):
     elif z**2 < x**2 + y**2:
         angle_type = "Acute"
     else:
-        angle_type = "Obtuse"
+        angle_type = "Obtuses"
 
     return f"{angle_type} {triangle_type} triangle"
 
